@@ -1,0 +1,27 @@
+{
+  "name": "letters-foundation",
+  "version": "1.0.0",
+  "description": "Package to start front-end work.",
+  "main": "public/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Round Pixel Studio, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "foundation-sites": "^6.2.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-include": "^2.3.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "slick-carousel": "^1.6.0"
+  }
+}
